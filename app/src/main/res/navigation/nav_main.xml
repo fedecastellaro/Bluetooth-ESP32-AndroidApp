@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/principal">
+    <fragment
+        android:id="@+id/principal"
+        android:name="com.example.emg_measurer.Fragments.Principal"
+        android:label="fragment_principal"
+        tools:layout="@layout/fragment_principal" >
+        <action
+            android:id="@+id/action_principal_to_agregarPersona"
+            app:destination="@id/agregarPersona" />
+        <action
+            android:id="@+id/action_principal_to_BTActivity"
+            app:destination="@id/BTActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/agregarPersona"
+        android:name="com.example.emg_measurer.Fragments.AgregarPersona"
+        android:label="Elija la persona" />
+    <activity
+        android:id="@+id/BTActivity"
+        android:name="com.example.emg_measurer.activities.BTActivity"
+        android:label="activity_btactivity"
+        tools:layout="@layout/activity_btactivity" />
+</navigation>

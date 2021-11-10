@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294331168384",
+    "project_id": "emg-measurer",
+    "storage_bucket": "emg-measurer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294331168384:android:6e1e477267f7f72d519865",
+        "android_client_info": {
+          "package_name": "com.example.emg_measurer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294331168384-7ln0h9d1q73of1i446basr7oimolu5vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTxjcMssluh6Kv_jHdzLIf43GkUfB93IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294331168384-7ln0h9d1q73of1i446basr7oimolu5vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
